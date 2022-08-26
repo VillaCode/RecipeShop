@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularShop';
+  routingComp: boolean = true;
+
+  catchin(event: boolean){
+    this.routingComp = event;
+  }
+
 }
